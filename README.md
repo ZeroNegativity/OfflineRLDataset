@@ -20,6 +20,7 @@ The repository includes the following code files:
 - `DataPreprocessing.ipynb`: Python code implementing preprocessing of the collected datasets.
 - `ModelPerformanceAndResults.ipynb`:Python code implementing various approximations models on the obtained datasets.
 - `README.md`: This file, providing an overview of the research repository.
+- `Reduction Of Dataset Size.ipynb`: Python code implementing the uniform dataset size reduction and further training of the MLP model on the reduced dataset.
 
 And this repository includes the following dataset files:
 
