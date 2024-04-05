@@ -7,10 +7,6 @@ This repository contains code developed as part of a research project conducted 
 - Research Name: How to Improve Synergy and Reduce Gap between Off-Policy and Offline RL: A Case Study in Gridworld Setting
 - Contributor: Kuanysh Tokayev
 
-## Abstract
-
-In the emerging landscape of off-policy reinforcement learning (RL), challenges arise due to the significant costs and risks tied to data collection. To address these issues, there is an alternative path for transitioning from off-policy to offline RL, known for its fixed data collection practices. This stands in contrast to online algorithms, which are sensitive to changes in data during the learning phase.However, the inherent challenge of offline RL lies in its limited interaction with the environment, resulting in inadequate data coverage.Hence, we underscore the convenient application of offline RL, 1) starting from the collection of a static dataset, 2) followed by the training of offline RL agents, and 3) culminating with testing in the same environment as off-policy RL methodologies. This involves the utilization of a uniform dataset gathered systematically via non-arbitrary action selection, covering all possible states of the environment. Utilizing the proposed approach, the Offline RL agent employing a Multi-Layer Perceptron (MLP) achieves a testing accuracy that falls within 1\% of the results obtained by the off-policy RL agent. Moreover, we provide a practical guide with datasets, offering valuable tutorials on the application of Offline RL in Gridworld-based real-world applications.
-
 ## Contents
 
 The repository includes the following code files:
